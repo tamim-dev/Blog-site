@@ -10,9 +10,13 @@
             href="https://fonts.cdnfonts.com/css/helvetica-255?styles=15805,30118,15802"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
     </head>
     <body>
-        <header class="shadow-md fixed z-50 w-full bg-white">
+        <header class="shadow-md fixed z-50 w-full bg-LIGHTBLUE text-white">
             <div class="container px-2 mx-auto flex justify-between py-5">
                 <div class="font-semibold text-3xl">LOGO</div>
                 <nav class="flex items-center justify-end">
@@ -74,10 +78,7 @@
                             </a>
                         </li>
                         <li>
-                            <img
-                                class="w-5 translate-y-[0px]"
-                                src="./assets/icon/magnifying-glass-solid.svg"
-                            />
+                            <i class="fa-solid fa-magnifying-glass w-5"></i>
                         </li>
                     </ul>
                 </nav>
@@ -89,20 +90,22 @@
                 <video class="h-[90vh] w-full object-cover" autoplay muted loop>
                     <source src="./assets/bgvideo.mp4" type="video/mp4" />
                 </video>
-                <div class="w-full h-full bg-[#40a3d887] absolute"></div>
+                <div class="w-full h-full bg-[#40a3d89f] absolute"></div>
                 <div
-                    class="container px-2 mx-auto absolute flex items-center h-full top-0"
+                    class="container px-2 mx-auto absolute flex flex-col justify-center items-start w-full h-full top-0"
                 >
                     <h1
                         class="text-4xl font-bold text-white leading-[50px] w-[60%]"
                     >
-                        <span class="text-5xl font-bold">GreenCitizen </span> is
-                        an environmental conservation company providing you with
-                        information, services, & products to help you live a
-                        sustainable life.
+                        <span class="text-5xl text-MILDYELLOW font-bold"
+                            >GreenCitizen
+                        </span>
+                        is an environmental conservation company providing you
+                        with information, services, & products to help you live
+                        a sustainable life.
                     </h1>
                     <button
-                        class="absolute bottom-28 py-3 px-5 bg-LIGHTBLUE rounded-full text-white"
+                        class="py-3 px-6 bg-MILDYELLOW rounded-full mt-10 text-OFFWHITE text-lg font-medium"
                     >
                         Learn more
                     </button>
@@ -110,13 +113,13 @@
             </div>
         </section>
 
-        <section class="py-16">
+        <section class="py-20">
             <div class="container mx-auto px-2 flex justify-between">
                 <div
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
                 </div>
@@ -124,7 +127,7 @@
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
                 </div>
@@ -132,7 +135,7 @@
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
                 </div>
@@ -140,7 +143,7 @@
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
                 </div>
@@ -148,7 +151,7 @@
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
                 </div>
@@ -156,9 +159,317 @@
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
                     <img class="w-14" src="./assets//house.svg" />
-                    <p>
+                    <p class="font-medium">
                         <a>Green Living Guides</a>
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div
+                class="container mx-auto px-2 flex flex-wrap justify-between gap-y-16"
+            >
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+                <div class="w-[31%]">
+                    <h2
+                        class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                    >
+                        Holiday Posts
+                    </h2>
+                    <img
+                        class="w-full h-[227px] my-5 rounded-lg shadow-md"
+                        src="./assets/img1.jpg"
+                    />
+                    <a
+                        class="font-medium text-xl block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >12 Actionable and Sustainable New Year’s Resolutions</a
+                    >
+                    <a
+                        class="text-lg my-5 block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >How to Recycle Christmas Tree Lights This Holiday
+                        Season</a
+                    >
+                    <a
+                        class="text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >30+ Eco-Friendly Tips For A Sustainable Holiday</a
+                    >
+                    <a
+                        class="my-5 text-lg block cursor-pointer border-b pb-2 hover:text-LIGHTBLUE transition ease-in-out delay-300"
+                        >Your Guide To An Eco-Friendly Christmas Tree</a
+                    >
+                    <button
+                        class="py-3 px-5 border-2 font-medium border-LIGHTBLUE rounded-full text-LIGHTBLUE"
+                    >
+                        View more
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto px-2">
+                <h3
+                    class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
+                >
+                    Positive Green News
+                </h3>
+                <div class="flex justify-between mt-8">
+                    <div class="w-[48%]">
+                        <img
+                            class=" rounded-lg w-full h-[341px]"
+                            src="./assets/img1.jpg"
+                        />
+                        <h4
+                            class="font-medium mt-2 text-xl block cursor-pointer hover:underline transition ease-in-out delay-300"
+                        >
+                            Turning Animal Bones into Sustainable Food Solutions
+                        </h4>
+                        <p class="font-medium">by Eunice Rodriguez</p>
+                    </div>
+                    <div class="w-[48%]">
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <h4
+                                class="font-medium text-lg block cursor-pointer hover:underline transition ease-in-out delay-300"
+                            >
+                                NY Approves Con Edison’s $1.2B Clean Energy
+                                Milestone
+                            </h4>
+                            <p class="font-medium text-[#303030]">
+                                by Eunice Rodriguez
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

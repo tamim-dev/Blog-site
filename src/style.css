@@ -6,7 +6,7 @@ nav ul li {
     position: relative;
 }
 .listitem:hover {
-    color: #40a2d8;
+    color: #fff;
 }
 .listitem::after {
     content: "";
@@ -14,7 +14,7 @@ nav ul li {
     width: 0;
     position: absolute;
     left: 0;
-    background: #40a2d8;
+    background: #fff;
     bottom: -5px;
     transition: 0.6s;
 }
