@@ -2,7 +2,7 @@ nav ul li {
     position: relative;
 }
 .listitem:hover {
-    color: #fff;
+    color: #40A2D8;
 }
 .listitem::after {
     content: "";
@@ -10,7 +10,7 @@ nav ul li {
     width: 0;
     position: absolute;
     left: 0;
-    background: #fff;
+    background: #40A2D8;
     bottom: -5px;
     transition: 0.6s;
 }
@@ -48,13 +48,14 @@ body::-webkit-scrollbar-thumb:hover {
 
 .navsubmanudiv .navsubmanu {
     width: 200px;
-    background: #fff;
+    background: #FFFFEC;
     position: absolute;
     border-radius: 2px;
     opacity: 0;
     visibility: hidden;
     transition: .5s;
-    padding: 20px;
+    padding: 10px;
+    z-index: 1;
     box-sizing: border-box;
     top: 40px;
     left: -150px;
@@ -62,6 +63,28 @@ body::-webkit-scrollbar-thumb:hover {
     color: black;
 }
 .navsubmanudiv:hover .navsubmanu{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.navsubmanudivsm .navsubmanusm{
+    width: 200px;
+    background: #FFFFEC;
+    position: absolute;
+    border-radius: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    padding: 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    top: 0px;
+    left: 50px;
+    transform: scale(0);
+    color: black;
+}
+.navsubmanudivsm:hover .navsubmanusm{
     opacity: 1;
     visibility: visible;
     transform: scale(1);

@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                Hel: "'Helvetica', sans-serif",
+                OS: "'Open Sans', sans-serif",
             },
             spacing: {
                 container: "1230px",
@@ -20,5 +20,5 @@ module.exports = {
             },
         },
     },
-    plugins: ['prettier-plugin-tailwindcss'],
+    plugins: ["prettier-plugin-tailwindcss"],
 };

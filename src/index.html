@@ -6,8 +6,10 @@
         <title>Document</title>
         <link href="./output.css" rel="stylesheet" />
         <link href="./style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.cdnfonts.com/css/helvetica-255?styles=15805,30118,15802,29377"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
         <link
@@ -16,11 +18,16 @@
         />
     </head>
     <body>
-        <header class="shadow-md fixed z-50 w-full bg-LIGHTBLUE text-white">
+        <header class="shadow-md fixed z-50 w-full bg-OFFWHITE text-black">
             <div class="container px-2 mx-auto flex justify-between py-5">
                 <div class="font-semibold text-3xl">LOGO</div>
-                <nav class="flex items-center justify-end">
-                    <ul class="flex font-Hel gap-x-8 font-medium">
+                <div class="lg:hidden">
+                    <i
+                    class="fa-solid fa-bars cursor-pointer text-2xl flex items-center  navClick"
+                ></i>
+                </div>
+                <nav class="lg:flex hidden lg:items-center lg:justify-end">
+                    <ul class="flex font-OS gap-x-8">
                         <li class="navsubmanudiv">
                             <a
                                 class="listitem cursor-pointer transition duration-300 ease-in-out pb-5"
@@ -28,9 +35,7 @@
                                 Blog
                             </a>
                             <span class="navsubmanu">
-                                <ul
-                                    class="flex flex-col gap-y-4 text-sm font-light"
-                                >
+                                <ul class="flex flex-col gap-y-4 text-sm">
                                     <li
                                         class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
                                     >
@@ -108,9 +113,128 @@
                                 More
                             </a>
                             <span class="navsubmanu">
-                                <ul
-                                    class="flex flex-col gap-y-4 text-sm font-light"
-                                >
+                                <ul class="flex flex-col gap-y-4 text-sm">
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass w-5"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="absolute hidden w-full bg-OFFWHITE top-16 left-0 p-5 navBar">
+                    <ul class="flex flex-col font-OS gap-y-5 overflow-y-scroll">
+                        <li class="navsubmanudivsm">
+                            <a
+                                class=" cursor-pointer transition duration-300 ease-in-out inline-block"
+                            >
+                                Blog
+                            </a>
+                            <span class="navsubmanusm">
+                                <ul class="flex flex-col gap-y-4 text-sm">
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                    <li
+                                        class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
+                                    >
+                                        Soler panel cost
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer"
+                            >
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer "
+                            >
+                                Directory
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer "
+                            >
+                                Store
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer"
+                            >
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer "
+                            >
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class=" cursor-pointer "
+                            >
+                                Contact
+                            </a>
+                        </li>
+                        <li class="navsubmanudivsm">
+                            <a
+                                class=" cursor-pointer  pb-5"
+                            >
+                                More
+                            </a>
+                            <span class="navsubmanusm">
+                                <ul class="flex flex-col gap-y-4 text-sm">
                                     <li
                                         class="hover:bg-[#d7d7d7] px-1 py-2 rounded cursor-pointer"
                                     >
@@ -148,18 +272,18 @@
         </header>
 
         <section class="pt-[76px]">
-            <div class="relative !w-full flex justify-center">
+            <div class="relative !w-full flex justify-center font-OS">
                 <video class="h-[90vh] w-full object-cover" autoplay muted loop>
                     <source src="./assets/bgvideo.mp4" type="video/mp4" />
                 </video>
-                <div class="w-full h-full bg-[#40a3d89f] absolute"></div>
+                <div class="w-full h-full bg-[#ffffffb9] absolute"></div>
                 <div
                     class="container px-2 mx-auto absolute flex flex-col justify-center items-start w-full h-full top-0"
                 >
                     <h1
-                        class="text-4xl font-bold text-white leading-[50px] w-[60%]"
+                        class="text-4xl font-semibold text-black leading-[50px] w-[60%]"
                     >
-                        <span class="text-5xl text-MILDYELLOW font-bold"
+                        <span class="text-5xl text-LIGHTBLUE font-bold"
                             >GreenCitizen
                         </span>
                         is an environmental conservation company providing you
@@ -167,7 +291,7 @@
                         a sustainable life.
                     </h1>
                     <button
-                        class="py-3 px-6 bg-MILDYELLOW rounded-full mt-10 text-OFFWHITE text-lg font-medium"
+                        class="py-3 px-6 bg-LIGHTBLUE rounded-full mt-10 text-white text-lg font-medium"
                     >
                         Learn more
                     </button>
@@ -176,7 +300,7 @@
         </section>
 
         <section class="py-20">
-            <div class="container mx-auto px-2 flex justify-between">
+            <div class="container mx-auto px-2 flex justify-between font-OS">
                 <div
                     class="p-5 box_shadow rounded-md flex flex-col items-center gap-y-4"
                 >
@@ -230,7 +354,7 @@
 
         <section>
             <div
-                class="container mx-auto px-2 flex flex-wrap justify-between gap-y-16"
+                class="container mx-auto px-2 flex flex-wrap justify-between gap-y-16 font-OS"
             >
                 <div class="w-[31%]">
                     <h2
@@ -434,7 +558,7 @@
         </section>
 
         <section class="py-16">
-            <div class="container mx-auto px-2">
+            <div class="container mx-auto px-2 font-OS">
                 <h3
                     class="pb-1 text-[32px] font-semibold border-b-[6px] border-b-LIGHTBLUE inline-block"
                 >
@@ -536,9 +660,17 @@
             </div>
         </section>
 
+        <div>
+            <button
+                class="fixed z-50 bottom-5 right-5 py-2 px-7 shadow-md bg-LIGHTBLUE rounded-full mt-10 text-white text-lg font-medium"
+            >
+                <i class="fa-regular fa-comment"></i> Chat
+            </button>
+        </div>
+
         <footer class="bg-OFFWHITE py-20">
-            <div class="container mx-auto px-2 flex gap-x-7">
-                <div class="w-[40%] pr-8">
+            <div class="container mx-auto px-2 flex smd:max-md:flex-wrap smd:max-md:gap-y-7 md:gap-x-7 smd:max-sm:justify-between font-OS">
+                <div class="md:w-[40%] smd:max-md:w-full lg:pr-8">
                     <div class="font-semibold text-3xl">LOGO</div>
                     <p class="my-7 text-justify">
                         We provide valuable insights, tips, and resources for
@@ -554,8 +686,8 @@
                         <i class="fa-brands fa-pinterest"></i>
                     </div>
                 </div>
-                <div class="w-[20%]">
-                    <h6 class="font-semibold text-3xl">About</h6>
+                <div class="w-[20%] smd:max-md:w-[30%]">
+                    <h6 class="font-semibold text-xl lg:text-3xl">About</h6>
                     <div class="mt-7">
                         <ul class="flex flex-col gap-y-3">
                             <li>
@@ -573,8 +705,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-[20%]">
-                    <h6 class="font-semibold text-3xl">Other Info</h6>
+                <div class="w-[20%] smd:max-md:w-[30%]">
+                    <h6 class="font-semibold text-xl lg:text-3xl">Other Info</h6>
                     <div class="mt-7">
                         <ul class="flex flex-col gap-y-3">
                             <li>
@@ -592,8 +724,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-[20%]">
-                    <h6 class="font-semibold text-3xl">Customer Service</h6>
+                <div class="w-[20%] smd:max-md:w-[30%]">
+                    <h6 class="font-semibold text-xl lg:text-3xl">Customer Service</h6>
                     <div class="mt-7">
                         <ul class="flex flex-col gap-y-3">
                             <li>
@@ -610,7 +742,9 @@
                 </div>
             </div>
             <div class="border-t pt-16 mt-16">
-                <div class="container mx-auto px-2 flex justify-between">
+                <div
+                    class="container mx-auto smd:max-sm:text-xs px-2 flex justify-between font-OS"
+                >
                     <div>
                         <p>
                             Copyright © 2024
@@ -632,5 +766,15 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            let navClick = document.querySelector(".navClick");
+            let navBar = document.querySelector(".navBar");
+
+            navClick.addEventListener("click", function () {
+                navBar.classList.toggle("hidden");
+            });
+        </script>
+
     </body>
 </html>
