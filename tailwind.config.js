@@ -8,6 +8,7 @@ module.exports = {
             },
             spacing: {
                 container: "1230px",
+                containshap: "1330px",
             },
             colors: {
                 LIGHTBLUE: "#40A2D8",

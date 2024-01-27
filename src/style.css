@@ -2,7 +2,7 @@ nav ul li {
     position: relative;
 }
 .listitem:hover {
-    color: #40A2D8;
+    color: #40a2d8;
 }
 .listitem::after {
     content: "";
@@ -10,7 +10,7 @@ nav ul li {
     width: 0;
     position: absolute;
     left: 0;
-    background: #40A2D8;
+    background: #40a2d8;
     bottom: -5px;
     transition: 0.6s;
 }
@@ -48,12 +48,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 .navsubmanudiv .navsubmanu {
     width: 200px;
-    background: #FFFFEC;
+    background: #ffffec;
     position: absolute;
     border-radius: 2px;
     opacity: 0;
     visibility: hidden;
-    transition: .5s;
+    transition: 0.5s;
     padding: 10px;
     z-index: 1;
     box-sizing: border-box;
@@ -62,20 +62,20 @@ body::-webkit-scrollbar-thumb:hover {
     transform: scale(0);
     color: black;
 }
-.navsubmanudiv:hover .navsubmanu{
+.navsubmanudiv:hover .navsubmanu {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
 }
 
-.navsubmanudivsm .navsubmanusm{
+.navsubmanudivsm .navsubmanusm {
     width: 200px;
-    background: #FFFFEC;
+    background: #ffffec;
     position: absolute;
     border-radius: 2px;
     opacity: 0;
     visibility: hidden;
-    transition: .5s;
+    transition: 0.5s;
     padding: 10px;
     z-index: 1;
     box-sizing: border-box;
@@ -84,8 +84,27 @@ body::-webkit-scrollbar-thumb:hover {
     transform: scale(0);
     color: black;
 }
-.navsubmanudivsm:hover .navsubmanusm{
+.navsubmanudivsm:hover .navsubmanusm {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
 }
+
+.border_shape_left {
+    position: absolute;
+    top: -47px;
+    left: -36px;
+    width: 36.63px;
+    height: 127px;
+    background: url("./assets/left.svg") no-repeat center;
+}
+.border_shape_right {
+    position: absolute;
+    top: -47px;
+    right: -36px;
+    width: 36.63px;
+    height: 127px;
+    background: url("./assets/right.svg") no-repeat center;
+}
+
+
