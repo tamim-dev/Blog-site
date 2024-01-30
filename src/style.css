@@ -107,4 +107,20 @@ body::-webkit-scrollbar-thumb:hover {
     background: url("./assets/right.svg") no-repeat center;
 }
 
+#hover_img figure{
+    overflow: hidden;
+}
 
+#hover_img img {
+	display: block;
+	width: 100%;
+	height: auto;
+	
+}
+#hover_img figure img {
+	transform: scale(1);
+	transition: 0.5s ease-in-out;
+}
+#hover_img:hover img {
+	transform: scale(1.2);
+}
