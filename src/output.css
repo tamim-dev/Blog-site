@@ -608,12 +608,28 @@ video {
   right: 1.25rem;
 }
 
+.right-7 {
+  right: 1.75rem;
+}
+
 .top-0 {
   top: 0px;
 }
 
 .top-16 {
   top: 4rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-16 {
+  right: 4rem;
 }
 
 .z-50 {

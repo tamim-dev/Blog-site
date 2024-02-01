@@ -332,7 +332,7 @@
                     <h2 class="font-semibold mt-7 text-4xl mb-10">
                         Latest Urban Sustainability Articles
                     </h2>
-                    <div class="flex justify-between ">
+                    <div class="flex justify-between">
                         <div
                             class="w-[24%] cursor-pointer bg-white flex flex-col gap-y-5"
                             id="hover_img"
@@ -450,11 +450,14 @@
 
         <div>
             <button
-                class="fixed z-50 bottom-5 right-5 py-2 px-7 shadow-md bg-LIGHTBLUE rounded-full mt-10 text-white text-lg font-medium"
+                class="fixed z-50 bottom-5 right-16 py-2 px-7 shadow-md bg-LIGHTBLUE rounded-full mt-10 text-white text-lg font-medium"
             >
                 <i class="fa-regular fa-comment"></i> Chat
             </button>
         </div>
+        <a href="#" class="to-top shadow-md">
+            <i class="fas fa-chevron-up text-LIGHTBLUE"></i>
+        </a>
 
         <footer class="bg-OFFWHITE py-20">
             <div
@@ -564,9 +567,18 @@
         <script>
             let navClick = document.querySelector(".navClick");
             let navBar = document.querySelector(".navBar");
+            let toTop = document.querySelector(".to-top");
 
             navClick.addEventListener("click", function () {
                 navBar.classList.toggle("hidden");
+            });
+
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset > 100) {
+                    toTop.classList.add("active");
+                } else {
+                    toTop.classList.remove("active");
+                }
             });
         </script>
     </body>
