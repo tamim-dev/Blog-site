@@ -4,9 +4,11 @@ nav ul li {
 .listitem:hover {
     color: #40a2d8;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .listitem::after {
     content: "";
     height: 3px;
@@ -126,6 +128,8 @@ body::-webkit-scrollbar-thumb:hover {
 #hover_img:hover img {
     transform: scale(1.2);
 }
+
+
 
 .to-top {
     background: rgb(255, 255, 255);
