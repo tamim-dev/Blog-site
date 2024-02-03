@@ -628,10 +628,6 @@ video {
   z-index: 50;
 }
 
-.float-start {
-  float: inline-start;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -721,8 +717,8 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-48 {
@@ -749,24 +745,16 @@ video {
   height: 100%;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
 .\!w-full {
   width: 100% !important;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-14 {
   width: 3.5rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-5 {
@@ -803,22 +791,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .cursor-pointer {
@@ -1060,10 +1032,6 @@ video {
   text-align: justify;
 }
 
-.font-OS {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1176,6 +1144,24 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+
+  src:
+        url("./assets/fonts/Helvetica\ Neue\ Medium\ Extended.otf")
+            format("opentype"),
+        url("./assets/fonts/Helvetica\ Neue\ Medium\ Extended.ttf")
+            format("truetype"),
+        url("./assets/fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf")
+            format("truetype"),
+        url("./assets/fonts/Helvetica\ Neue\ LTW0697BlkCnObl.otf")
+            format("opentype");
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 .hover\:bg-\[\#d7d7d7\]:hover {

@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                OS: "'Open Sans', sans-serif",
+                helvetica: ["HelveticaNeue", "sans-serif"],
             },
             spacing: {
                 container: "1230px",
