@@ -640,6 +640,11 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -696,6 +701,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -750,6 +759,18 @@ video {
 
 .h-\[\] {
   height: ;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .\!w-full {
